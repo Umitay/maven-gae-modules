@@ -1,0 +1,130 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] maven-gae-modules
+[INFO] maven-gae-modules-war
+[INFO] maven-gae-modules-ear
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building maven-gae-modules 1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-help-plugin:2.2:describe (default-cli) @ maven-gae-modules ---
+[INFO] com.google.appengine:appengine-maven-plugin:1.9.11
+
+Name: A Maven Plugin for running and deploying appengine applications
+Description: The App Engine maven plugin which can be used to interact with
+  both the development server and the remote runtime.
+Group Id: com.google.appengine
+Artifact Id: appengine-maven-plugin
+Version: 1.9.11
+Goal Prefix: appengine
+
+This plugin has 29 goals:
+
+appengine:backends_configure
+  Description: Configure the specified backend.
+
+appengine:backends_delete
+  Description: Delete the specified backend.
+
+appengine:backends_rollback
+  Description: Roll back a previously in-progress update.
+
+appengine:backends_start
+  Description: Start the specified backend.
+
+appengine:backends_stop
+  Description: Stop the specified backend.
+
+appengine:backends_update
+  Description: Update the specified backend or all backends.
+
+appengine:create-property
+  Description: Maven project version is dot based, e.g '1.9.7' , whereas
+    appengine-web.xml is dash baseb, e.g. '1-9-7' This goal creates a Maven
+    property with a correct app engine version.
+
+appengine:debug
+  Description: Debug the specified VM Runtime instance.
+
+appengine:devserver
+  Description: Runs the App Engine development server.
+
+appengine:devserver_start
+  Description: Starts the App Engine development server and does not wait.
+
+appengine:devserver_stop
+  Description: Stops the App Engine development server.
+
+appengine:endpoints_get_client_lib
+  Description: App Engine endpoints get-client-lib ... command.
+
+appengine:endpoints_get_discovery_doc
+  Description: App Engine endpoints get-discovery-doc command.
+
+appengine:enhance
+  Description: Runs the datanucleus enhancer.
+
+appengine:gcloud_app_deploy
+  Description: Deploy an application via gcloud deploy.
+
+appengine:gcloud_app_run
+  Description: Runs the App Engine development server.
+
+appengine:gcloud_app_run_start
+  Description: Starts the Gcloud App Engine development server and does not
+    wait.
+
+appengine:gcloud_app_run_stop
+  Description: Stops the Gcloud App Engine development server.
+
+appengine:rollback
+  Description: Rollback an in-progress update.
+
+appengine:set_default_version
+  Description: Set the default serving version.
+
+appengine:start_module_version
+  Description: Start the specified module version.
+
+appengine:stop_module_version
+  Description: Stop the specified module version.
+
+appengine:update
+  Description: Create or update an app version.
+
+appengine:update_cron
+  Description: Update application cron jobs.
+
+appengine:update_dispatch
+  Description: Update application dispatch.xml.
+
+appengine:update_dos
+  Description: Update application DoS protection configuration.
+
+appengine:update_indexes
+  Description: Update application indexes.
+
+appengine:update_queues
+  Description: Update application task queue definitions.
+
+appengine:vacuum_indexes
+  Description: Delete unused indexes from application.
+
+For more information, run 'mvn help:describe [...] -Ddetail'
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] maven-gae-modules .................................. SUCCESS [  0.499 s]
+[INFO] maven-gae-modules-war .............................. SKIPPED
+[INFO] maven-gae-modules-ear .............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.869 s
+[INFO] Finished at: 2014-09-16T12:28:28+03:00
+[INFO] Final Memory: 10M/244M
+[INFO] ------------------------------------------------------------------------
